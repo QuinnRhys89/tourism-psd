@@ -1,0 +1,35 @@
+.our-services{
+    background: #f8f8f8;
+    height: 550px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-container{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.service{
+    width: 33.33%;
+    height: 320px;
+    margin: 0 20px;
+    color: #fff;
+    text-align: center;
+    background: $maincolor;
+   .service-text{
+       padding: 10px;
+       font-size: 1.2rem;
+       line-height: 20px;
+       height: 200px;
+   }
+}
+
+.service:nth-child(2){
+    background: $highlight;
+    color: $maincolor;
+    text-align: left;
+    padding: 10px;
+}

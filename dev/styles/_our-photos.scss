@@ -1,0 +1,59 @@
+.our-photos{
+    height: 600px;
+}
+
+.gallery-nav ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 auto;
+    li{
+        float: left;
+        margin: 0 15px;
+        border: 2px solid $highlight;
+        padding: 5px 10px;
+        a{
+            text-decoration: none;
+            color: #c7c7c7;
+        }
+    }
+}
+
+.gallery-8up{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.gallery-8up div{
+    width: 25%;
+    height: 200px;
+    border: 1px solid black;
+    background: lightgrey;
+}
+
+.gallery-numbers{
+    margin-top: 20px;
+}
+
+.gallery-numbers ul{
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto;
+    li{
+        background: #f8f8f8;
+        height: 25px;
+        width: 25px;
+        float: left;
+
+        margin: 0 10px;
+        &:hover{
+            background: $highlight;
+            color: #fff;
+        }
+        a{
+            text-decoration: none;
+            color: $maincolor;
+        }
+    }
+}

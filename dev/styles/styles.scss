@@ -8,6 +8,10 @@ $highlight: #fac742;
 @import 'setup';
 @import 'header';
 @import 'business-info';
+@import 'activities';
+@import 'our-services';
+@import 'our-photos';
+@import 'contact';
 
 
 html{
@@ -21,7 +25,17 @@ body{
 }
 
 .wrapper{
-    max-width: 1180px;
+    max-width: 1170px;
     width: 90%;
     margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    color: $maincolor;
+    font-size: 2.5rem;
 }

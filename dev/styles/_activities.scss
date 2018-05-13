@@ -1,0 +1,28 @@
+.activities{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.featured-activities{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    // border: 1px solid black;
+    .activity{
+        width: 25%;
+        text-align: center;
+        margin: 0 30px;
+        line-height: 20px;
+        img{
+            width: 40px;
+        }
+    }
+}
+
+.title{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+

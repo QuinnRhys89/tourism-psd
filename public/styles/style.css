@@ -171,7 +171,9 @@ ul li:first-child {
   margin-left: 0; }
 
 .hero-image {
-  background: grey;
+  background-image: url("../../public/assets/canoe-lake.jpg");
+  background-size: cover;
+  background-position: center;
   height: calc(100vh - 80px);
   display: flex;
   align-items: center;
@@ -212,6 +214,110 @@ ul li:first-child {
     background: #282828;
     width: 50%; }
 
+.activities {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 40px 0; }
+
+.featured-activities {
+  display: flex;
+  width: 70%;
+  margin: 0 auto; }
+  .featured-activities .activity {
+    width: 25%;
+    text-align: center;
+    margin: 0 30px;
+    line-height: 20px; }
+    .featured-activities .activity img {
+      width: 40px; }
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 700; }
+
+.our-services {
+  background: #f8f8f8;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.service-container {
+  display: flex;
+  width: 70%;
+  margin: 0 auto; }
+
+.service {
+  width: 33.33%;
+  height: 320px;
+  margin: 0 20px;
+  color: #fff;
+  text-align: center;
+  background: #282828; }
+  .service .service-text {
+    padding: 10px;
+    font-size: 1.2rem;
+    line-height: 20px;
+    height: 200px; }
+
+.service:nth-child(2) {
+  background: #fac742;
+  color: #282828;
+  text-align: left;
+  padding: 10px; }
+
+.our-photos {
+  height: 600px; }
+
+.gallery-nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto; }
+  .gallery-nav ul li {
+    float: left;
+    margin: 0 15px;
+    border: 2px solid #fac742;
+    padding: 5px 10px; }
+    .gallery-nav ul li a {
+      text-decoration: none;
+      color: #c7c7c7; }
+
+.gallery-8up {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px; }
+
+.gallery-8up div {
+  width: 25%;
+  height: 200px;
+  border: 1px solid black;
+  background: lightgrey; }
+
+.gallery-numbers {
+  margin-top: 20px; }
+
+.gallery-numbers ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+  margin: 0 auto; }
+  .gallery-numbers ul li {
+    background: #f8f8f8;
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin: 0 10px; }
+    .gallery-numbers ul li:hover {
+      background: #fac742;
+      color: #fff; }
+    .gallery-numbers ul li a {
+      text-decoration: none;
+      color: #282828; }
+
+.contact {
+  height: 400px; }
+
 html {
   font-size: 62.5%; }
 
@@ -221,6 +327,14 @@ body {
   font-family: 'Open Sans', sans-serif; }
 
 .wrapper {
-  max-width: 1180px;
+  max-width: 1170px;
   width: 90%;
   margin: 0 auto; }
+
+img {
+  width: 100%; }
+
+h2 {
+  text-align: center;
+  color: #282828;
+  font-size: 2.5rem; }
