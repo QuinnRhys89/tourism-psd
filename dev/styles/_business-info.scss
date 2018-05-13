@@ -1,0 +1,22 @@
+.business-info{
+    display: flex;
+    height: 400px;
+    .desc-text{
+        background: #f4f4f4;
+        width: 50%;
+        font-size: 1.2rem;
+        padding: 50px;
+        h2{
+            font-size: 2.5rem;
+        }
+        ul{
+            list-style-type: square;
+            padding-left: 12px;
+            line-height: 1.8rem;
+        }
+    }
+    .business-pic{
+        background: $maincolor;
+        width: 50%;
+    }
+}

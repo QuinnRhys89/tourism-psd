@@ -1,0 +1,27 @@
+$maincolor: #282828;
+$textcolor: #888888;
+$headingcolor: #fff;
+$highlight: #fac742;
+
+
+
+@import 'setup';
+@import 'header';
+@import 'business-info';
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    max-width: 1180px;
+    width: 90%;
+    margin: 0 auto;
+}

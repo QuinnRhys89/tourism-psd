@@ -1,0 +1,80 @@
+header{
+    background: $maincolor;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    .company-logo{
+        font-weight: 600;
+        font-size: 1.4rem;
+        color: $headingcolor;
+        p span{
+            color: $highlight;
+        }
+    }
+
+}
+
+nav{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    .company-logo{
+        text-transform: uppercase;
+    }
+}
+
+
+.site-nav{
+    list-style-type: none;
+    padding-left: 0;
+    li{
+        float: left;
+        margin-left: 30px;
+        a{
+            text-decoration: none;
+            color: $textcolor;
+            transition: all 500ms linear;
+            &:hover{
+                color: $highlight;
+            }
+    
+        }
+    }
+}
+
+ul li:first-child{
+    margin-left: 0;
+}
+
+.hero-image{
+    background: grey;
+    // background-size: cover;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1{
+        font-size: 4rem;
+        margin: 0 0 20px 0;
+        color: $headingcolor;
+    }
+    button{
+        background: $highlight;
+        height: 30px;
+        width: 80px;
+        text-transform: uppercase;
+        color: $maincolor;
+        font-weight: 600;
+        border: 0;
+    }
+}
+
+.tagline{
+    color: $headingcolor;
+    font-size: 1.2rem;
+}
